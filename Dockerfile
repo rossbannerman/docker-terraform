@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:light as source
+FROM hashicorp/terraform:0.12.13 as source
 
 LABEL maintainer="Ross Bannerman <ross@bnnr.mn>"
 
